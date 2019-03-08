@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/apikit http://www.mulesoft.org/schema/mule/a
     <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8071" basePath="/" doc:name="HTTP Listener Configuration"/>
     <flow name="sonarcodetestwithmaven630_v4Flow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
-        <apikit:router config-ref="" doc:name="APIkit Router"/>
+        <flow-ref name="createcustomerFlow" doc:name="createcustomerFlow"/>
         <set-payload doc:name="Set Payload"/>
     </flow>
 </mule>
