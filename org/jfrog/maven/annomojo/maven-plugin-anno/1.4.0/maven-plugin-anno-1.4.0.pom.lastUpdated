@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Mar 11 18:01:01 IST 2019
+http\://repository.mulesoft.org/releases/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1552307461284
+http\://repo.jfrog.org/artifactory/plugins-releases-local/.lastUpdated=1552307461808
+http\://repository.mulesoft.org/releases/.lastUpdated=1552307460482
+https\://repo.maven.apache.org/maven2/.error=
