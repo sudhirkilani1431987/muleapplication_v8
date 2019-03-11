@@ -14,7 +14,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<mule.version>3.8.5</mule.version>
-    	<mule.tools.version>1.7</mule.tools.version>
+    	<mule.tools.version>1.2</mule.tools.version>
     	<sonar.sources>.</sonar.sources>
     	<sonar.inclusions>src/main/app/**</sonar.inclusions>
 	</properties>
@@ -179,6 +179,12 @@ http://localhost:9000
             <url>http://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
+        <repository>
+			<id>mulesoft-snapshots</id>
+			<name>MuleSoft Snapshots Repository</name>
+			<url>http://repository.mulesoft.org/snapshots/</url>
+			<layout>default</layout>
+</repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
